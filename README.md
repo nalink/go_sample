@@ -17,4 +17,8 @@ Copy all src/sample.com GOPATH/src/
 
 * Kubernetes
   
+    > kubectl run gosample --image=go_sample --port=3000
+
+    > kubectl expose deployment gosample --type=LoadBalancer
+    
 
