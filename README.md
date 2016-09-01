@@ -4,6 +4,7 @@ Go Sample
 Simple Go based service
 
 Define GOPATH
+
 Copy all src/sample.com GOPATH/src/
 
 * Local
