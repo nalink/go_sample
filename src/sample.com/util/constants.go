@@ -1,9 +1,9 @@
 package util
 
 const (
-	StatusOK = "Ok"
+	StatusOK   = "Ok"
 	StatusFail = "Fail"
 
 	HttpPost = "Post"
-	HttpGet = "Get"
+	HttpGet  = "Get"
 )

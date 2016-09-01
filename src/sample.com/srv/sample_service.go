@@ -5,7 +5,7 @@ import (
 )
 
 type info struct {
-	id string
+	id   string
 	name string
 }
 
