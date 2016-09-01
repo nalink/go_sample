@@ -25,16 +25,16 @@ func (i *info) Add() error {
 }
 
 func (i *info) Get() (string, error) {
-	if i.id == nil {
-		return fmt.Errorf("Nothing to return")
+	if i.id == "" {
+		return "", fmt.Errorf("Nothing to return")
 	}
 
 	fmt.Println("Found %s", i.id)
-	return i.name
+	return i.name, nil
 }
 
 func (i *info) Delete() error {
-	if i.id == nil {
+	if i.id == "" {
 		return fmt.Errorf("Nothing to delete")
 	}
 
