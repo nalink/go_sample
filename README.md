@@ -14,7 +14,7 @@ Copy all src/sample.com GOPATH/src/
 
     > docker build -t go_sample:latest .
     
-    > docker run -p 3000:3000 <image_id>
+    > docker run -p 3000:3000 go_sample:latest
 
 * Kubernetes
   
